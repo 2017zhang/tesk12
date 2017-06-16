@@ -1,0 +1,224 @@
+$widthten:100%;
+
+$fontcolor:#fff;
+$background-color:#5fc0cd;
+$border:#ccc;
+$color:#aaa;
+
+$widthfive:50px;
+
+body{
+  margin:0;
+  padding:0;
+  width:$widthten;
+  height:$widthten;
+  overflow-x:hidden;
+}
+ .header{
+   position:fixed;
+   z-index:999;
+   width:$widthten;
+   display:-webkit-flex;
+   display:-moz-box;
+   display:-ms-flexbox;
+   align-items:center;
+   color:$fontcolor;
+   background-color:$background-color;
+ }
+ .header{
+   img{
+     position:absolute;
+     top:15px;
+     margin:0 0 0 20px;
+     width:15px;
+     height:$widthfive/2;
+   }
+ }
+ .header{
+   p{
+     margin:17px auto;
+     font-weight:400;
+   }
+ }
+ .main{
+   position:absolute;
+   z-index:990;
+   width:$widthten;
+ }
+
+ .top{
+   position:relative;
+   margin:60px 0 0 0;
+   width:$widthten;
+ }
+ .top{
+   img{
+     position:absolute;
+     top:-16px;
+     z-index:-3;
+     width:$widthten;
+     height:149px;
+   }
+ }
+ .touxiang{
+   img{
+     position:absolute;
+     z-index:995;
+     margin:20px 0 0 15px;
+     padding:0;
+     width:($widthfive*2 - 20px);
+   }
+ }
+ .age{
+   position:absolute;
+   top:($widthfive*2 - 1px);
+   z-index:995;
+   margin:0 120px;
+   width:$widthten/2;
+   display:-webkit-flex;
+   display:-moz-box;
+   display:-ms-flexbox;
+   display:flex;
+   -webkit-flex-direction:column;
+   -ms-flex-direction:column;
+   flex-direction:column;
+   -webkit-align-itemd:flex-start;
+   align-items:flex-start;
+   font-size:1rem;
+   color:$fontcolor;
+   letter-spacing:1px;
+ }
+ .age{
+   p{
+     margin:0;
+   }
+ }
+
+ .address{
+   margin:$widthfive/5 0 0 0;
+   width:$widthten;
+   display:-webkit-flex;
+   display:-moz-box;
+   display:-ms-flexbox;
+   display:flex;
+   -webkit-justify-content:flex-start;
+   justify-content:flex-start;
+   -webkit-align-items:center;
+   align-items:center;
+   font-size:6.5px;
+   letter-spacing:1px;
+ }
+ .address{
+   img{
+     width:$widthfive/5;
+   }
+ }
+ .title{
+   height:($widthfive - 2px);
+   border-bottom:1px solid #ccc;
+   padding-top:($widthfive*4 - 10px);
+ }
+ .title-p{
+   margin-left:($widthfive/5 - 2px );
+   padding-left:($widthfive/5 - 5.2px );
+   line-height:($widthfive - 2px);
+   border-left:3.2px solid $background-color;
+ }
+ li{
+   border-bottom:1px solid $border;
+   margin-left:-22.4px;
+   margin-right:($widthfive - 34px);
+   list-style:none;
+   position:relative;
+ }
+ .feature{
+   display:inline;
+   margin-left:($widthfive - 34px );
+ }
+ .feature{
+   p{
+     display:inline-block;
+     background-size:($widthfive - 37.2px );
+     padding-left:($widthfive - 34px );
+     margin-left:-($widthfive - 34px );
+     margin-top:-($widthfive - 34px );
+   }
+ }
+ .feature{
+   img{
+     margin-right:$widthfive/10;
+     width:($widthfive - 32px );
+     vertical-align:middle;
+     margin-top:-($widthfive/10);
+   }
+ }
+ .feature-1{
+   display:inline;
+   width:($widthfive*2 - 20px );
+ }
+ .feature-1{
+   p{
+     display:inline-block;
+     background0left:($widthfive - 37.2px );
+     padding-left:($widthfive - 34px );
+     margin-left:-($widthfive - 34px );
+     margin-top:-($widthfive - 34px );
+   }
+ }
+ .feature-1{
+   img{
+     margin-right:$widthfive/10;
+     margin-left:($widthfive - 20px );
+     width:($widthfive - 32px );
+     vertical-align:middle;
+     margin-top:-($widthfive/10 );
+   }
+ }
+ .worktime{
+   color:$color;
+   position:absolute;
+   top:$widthten/2;
+   margin-top:-($widthfive - 38.2px );
+   margin-left:($widthfive - 42px );
+   padding-right:($widthfive - 38px );
+   border-right:1px solid $border;
+   padding-rigth:($widthfive - 38px );
+ }
+ .min{
+   display:inline-block;
+   line-height:($widthfive - 2px );
+   padding-left:$widthfive*2 - 4px;
+ }
+ .explain {
+   display: inline-block;
+   line-height: ($widthfive - 30.8px);
+ }
+ .message{
+   width:$widthten - 55%;
+   height:$widthfive - 2px;
+   margin-left:$widthten - 97%;
+   border:2.4px solid $background-color;
+   border-radius:($widthfive - 45.2px );
+   background:$fontcolor;
+   font-size:($widthfive - 34px );
+   color:$background-color;
+   float:left;
+   cursor:pointer;
+ }
+ .tel{
+   width:$widthten - 55%;
+   height:$widthfive - 2px;
+   margin-left:$widthten - 96%;
+   background:$background-color;
+   border-radius:$widthfive - 45.2px;
+   font-size:$widthfive - 34px;
+   color:$fontcolor;
+   float:left;
+   cutline:none;
+ }
+ .foot{
+   position:fixed;
+   bottom:$widthfive - 42px;
+   width:$widthten;
+   height:$widthfive*2-4px;
+ }
